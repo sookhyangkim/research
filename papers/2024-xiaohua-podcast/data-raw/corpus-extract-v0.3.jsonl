@@ -1,0 +1,2 @@
+{"id": "xiaofu-0042", "type_id": "XH-0001", "source": "xiaofu", "operations": ["FRAME_ADD", "COMMENT_ADD"], "register": "俗", "folk": true}
+{"id": "xiaolin-guangji-0007", "type_id": "XH-0001", "source": "xiaolin-guangji", "operations": ["NAME_SUB", "ABRIDGE"], "register": "俗", "folk": true}

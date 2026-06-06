@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "DH 논문 연구 아카이브 (xiaohua-research)"
+message: "개별 논문 꾸러미는 각 manifest.yaml의 paper.doi로 인용하세요."
+type: dataset
+authors:
+  - family-names: ""
+    given-names: ""
+    affiliation: "고려대학교 중국학연구소"
+version: "0.1.0"
+date-released: "2026-01-01"
+url: "https://github.com/<user>/xiaohua-research"
+license: "CC-BY-NC-4.0"
