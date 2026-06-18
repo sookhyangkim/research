@@ -1,0 +1,40 @@
+# 논문 꾸러미 매니페스트 — papers/2026-xiaofu-xingtibu
+slug: "2026-xiaofu-xingtibu"
+title: "명말 사람들은 무엇에 웃었을까 — 馮夢龍 《笑府》 形體部의 신체와 감각"
+authors:
+  - "Sookhyang Kim (金淑香)"
+venue: ""            # 게재지 (확정 후 기입)
+year: 2026
+status: "in-preparation"
+
+# 대상 텍스트
+work: "笑府"
+juan: 10
+section: "形體部"
+
+# 코퍼스 버전 핀 — 경로가 아니라 버전으로 가리킨다
+corpus:
+  name: "xiaohua-corpus"
+  version: ""        # TODO: 추출 시점의 태그(예: v0.x) + Zenodo DOI 발급 후 기입
+  doi: ""
+
+# 동결된 로우데이터
+data-raw:
+  - path: "data-raw/xiaofu_j10_xingtibu_text.txt"
+    desc: "形體部 笑話 본문 58편 (정리본)"
+  - path: "data-raw/xiaofu_j10_xingtibu_text.jsonl"
+    desc: "형체부 본문 58편 (기계가독 정본, 줄당 1편)"
+  - path: "data-raw/SOURCES.md"
+    desc: "底本·校勘·교정 출처 기록"
+
+entries:
+  total: 58
+  titled: 41
+  you: 10            # 又 (同題 추가편)
+  untitled: 7        # 篇名 없는 同題 추가 소화
+
+license:
+  text: "public-domain"      # 전근대 원문
+  annotation: "CC-BY-NC-4.0" # 번호·층위·篇名·교감 등 편집 산물
+
+updated: "2026-06-18"
