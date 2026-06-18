@@ -1,25 +1,35 @@
 # ============================================================
 # 笑府 卷十 形體部 — 笑話 본문 (text layer)
+# Xiaofu, Vol.10, "Physique" section (形體部) — joke body text (text layer)
 # ============================================================
 # archive    : xiaohua-research / papers/2026-xiaofu-xingtibu
-# work       : 馮夢龍 編《笑府》
-# juan       : 卷十 (10)
-# section    : 形體部 (xingtibu)
+# work       : 馮夢龍 編《笑府》  |  Xiaofu, ed. Feng Menglong
+# juan       : 卷十 (10)  |  volume 10
+# section    : 形體部 (xingtibu)  |  "Physique / Body" section
 # layer      : text — 笑話 본문만 수록 (評語·小序·夾註 제외)
-# entries    : 58  (연속 번호 1–58)
-#                篇名 있음(titled)        : 41
-#                又(同題 추가편)          : 10
-#                篇名 없는 同題 추가 소화 : 7
-# 底本       : 《馮夢龍全集》 所收 《笑府》 (上海古籍出版社, 影印本)
-# 校勘       : 海峽本(1992) 등 通行本 교감. 海峽本은 외설 조목을 存目刪文
+#              joke body text only (commentary 評語, preface 小序, interlinear notes 夾註 excluded)
+# entries    : 58  (연속 번호 / sequential no. 1–58)
+#                篇名 있음 (titled)                              : 41
+#                又 (同題 추가편 / same-topic add-on)            : 10
+#                篇名 없는 同題 추가 소화 (untitled same-topic)  : 7
+# 底本 (base) : 《馮夢龍全集》 所收 《笑府》 (上海古籍出版社, 影印本)
+#              Xiaofu in The Complete Works of Feng Menglong
+#              (Shanghai Guji Publishing House, photo-reprint)
+# 校勘 (coll.): 海峽本(1992) 등 通行本 교감. 海峽本은 외설 조목을 存目刪文
 #              (목차에 제목만 남기고 본문 삭제)하였으므로 해당 본문은 通行本으로 보완.
-# 校訂       : 영인 字形 불명처·異文은 通行本 교감을 거치되, 최종 판단은 연구자.
+#              Collated against the Haixia edition (1992) and other current editions.
+#              The Haixia edition kept the titles of bawdy entries but cut their text
+#              (存目刪文); such text is restored from other current editions.
+# 校訂 (ed.)  : 영인 字形 불명처·異文은 通行本 교감을 거치되, 최종 판단은 연구자.
+#              Illegible photo-reprint glyphs and variants are resolved by collation,
+#              but all final readings are the author's own judgment.
 # encoding   : UTF-8        line-ending : LF
 # format     : "번호 [篇名|又]" 다음 줄부터 본문
-#                · '又'           = 직전 篇名과 同題의 추가편
-#                · 篇名 없는 번호 = 직전 篇名 主題 안의 추가 소화
-# canonical  : 기계가독 정본은 xiaofu_j10_xingtibu_text.jsonl
-# sources    : 출처 상세는 동일 폴더 SOURCES.md
+#              "number [title|又]" header, body text from the next line
+#                · '又'             = 직전 篇名과 同題의 추가편 / same-topic add-on to the previous title
+#                · 篇名 없는 번호   = 직전 篇名 主題 안의 추가 소화 / untitled add-on under the previous topic
+# canonical  : 기계가독 정본 / machine-readable master: xiaofu_j10_xingtibu_text.jsonl
+# sources    : 출처 상세 / full provenance: SOURCES.md (same folder)
 # updated    : 2026-06-18
 # ============================================================
 
