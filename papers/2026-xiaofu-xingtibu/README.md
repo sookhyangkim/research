@@ -50,3 +50,38 @@ research compendium다. `data-raw/`는 한 번 동결되면 다시 손대지 않
 - 본문 텍스트(전근대 원문): 퍼블릭 도메인.
 - 번호 부여·층위 분리·篇名 정리·교감 등 편집 산물: CC BY-NC 4.0.
 
+---
+
+# Feng Menglong's *Xiaofu*, "Body" Section (形體部) — Research Compendium
+
+*What did people laugh at in the late Ming? — Body and the senses in the "Physique"
+section (形體部) of Feng Menglong's* Xiaofu (笑府)
+
+This folder is a research compendium that freezes the data, code, and outputs used in
+the paper above at the time of publication. Once frozen, `data-raw/` is never modified again.
+
+## Metadata
+
+| Field | Value |
+|-------|-------|
+| Slug | `2026-xiaofu-xingtibu` |
+| Subject | Feng Menglong (ed.), *Xiaofu*, Vol. 10, "Physique" section (形體部) |
+| Venue | (TBD) |
+| Year | 2026 |
+| Status | In preparation |
+| Corpus version | (to be recorded in `manifest.yaml` once a tag is issued) |
+
+## What & from which data
+
+The primary source is the collated text of **58 jokes** from the "Physique" section
+(41 titled · 10 *you* 又 same-topic add-ons · 7 untitled same-topic add-ons). The study
+combines quantitative (word-frequency) and qualitative (close-reading) analysis;
+derived materials such as frequency tables will be added to `data-processed/` later.
+
+- **Base text (底本):** *Xiaofu* in *The Complete Works of Feng Menglong*
+  (Shanghai Guji Publishing House, photo-reprint / 影印本)
+- **Collation (校勘):** checked against the Haixia edition (1992) and other current
+  editions; all final readings are the author's own judgment
+- See `data-raw/SOURCES.md` for details
+
+## Standard folder structure
