@@ -28,3 +28,42 @@
 
 - 코퍼스 버전 핀: `manifest.yaml`의 `corpus` 항목 참조.
 - 작성일: 2026-06-18.
+
+---
+
+# SOURCES — Provenance, Collection & Collation Record
+
+`data-raw/` is read-only, frozen data. The sources and collation policy below are
+fixed as of the time of publication.
+
+## Contents
+
+| File | Description |
+|------|-------------|
+| `xiaofu_j10_xingtibu_text.txt`   | *Xiaofu*, Vol. 10, "Physique" section (形體部): body text of 58 jokes (human-readable edition) |
+| `xiaofu_j10_xingtibu_text.jsonl` | Same content in machine-readable form (one joke per line) |
+
+- **Scope:** 58 jokes from the "Physique" section — 41 titled · 10 *you* (又, same-topic add-ons) · 7 untitled same-topic add-ons.
+- **Excluded:** commentary (評語), prefaces (小序), and interlinear notes (夾註, dialect/collation glosses) are not part of this layer.
+- **Orthography:** traditional characters (正字). Any further normalization for frequency analysis is done separately in `data-processed/`; this raw layer is never altered.
+
+## Base text (底本)
+
+*Xiaofu* in *The Complete Works of Feng Menglong* (上海古籍出版社 / Shanghai Guji
+Publishing House), photo-reprint (影印本).
+
+## Collation (校勘)
+
+- Collated against current editions including the Haixia edition (福州: 海峽文藝出版社 /
+  Haixia Literature & Art Publishing House, 1992).
+- Because the photo-reprint has some illegible glyphs, those passages and textual
+  variants were supplemented through collation with current editions.
+- The Haixia edition kept only the titles of bawdy entries while cutting their body
+  text (存目刪文); the text of those entries was therefore filled in by collation with
+  current editions.
+- All final readings (校訂) rest on the author's own judgment.
+
+## Freeze information
+
+- Corpus version pin: see the `corpus` field in `manifest.yaml`.
+- Date: 2026-06-18.
