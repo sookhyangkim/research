@@ -52,7 +52,7 @@ research compendium다. `data-raw/`는 한 번 동결되면 다시 손대지 않
 
 ---
 
-# Feng Menglong's *Xiaofu*, "Body" Section (形體部) — Research Compendium
+# Bodily Sensation and Laughter in Feng Menglong's *Xiafu*: A Keyness Analysis and Close Reading of the Three Boundaries of the Body- Research Compendium
 
 *What did people laugh at in the late Ming? — Body and the senses in the "Physique"
 section (形體部) of Feng Menglong's* Xiaofu (笑府)
